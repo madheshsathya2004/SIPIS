@@ -1,0 +1,13 @@
+.carousel-container {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    margin: 20px auto;
+    max-width: 100vh;
+    backdrop-filter: blur(10px);
+  }
+  
+  .carousel-container .carousel .slide img {
+    border-radius: 10px;
+  }
+  

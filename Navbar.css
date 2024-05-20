@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #333;
+  }
+  
+  .logo-container {
+    flex: 0 1 auto;
+  }
+  
+  .logo {
+    height: 120px;
+    width: 150px;
+  }
+  
+  .nav-links {
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    padding: 20;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+  }
+  
+  .nav-links li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 30px 25px;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #ba8f00f7;
+    border-radius: 20px;
+  }
+  

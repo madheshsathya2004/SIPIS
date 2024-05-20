@@ -1,0 +1,14 @@
+.content {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in width calculation */
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: bold;
+  text-align: justify;
+  background-color: antiquewhite;
+}
+
+.content p {
+  margin-bottom: 20px; /* Add some space between paragraphs */
+}
